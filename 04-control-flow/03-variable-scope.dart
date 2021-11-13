@@ -1,7 +1,6 @@
 const global = 'Hello, world';
 
 void main() {
-
   const local = 'Hello, main';
 
   if (2 > 1) {
@@ -10,8 +9,8 @@ void main() {
     print(local);
     print(insideIf);
   }
-  
+
   print(global);
   print(local);
-  print(insideIf); // Not allowed!
+  // print(insideIf); // Not allowed!
 }
